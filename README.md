@@ -22,7 +22,7 @@ This example is pretty much self explanatory:
 
 ```javascript
 const Docker = require('dockerode');
-const DockerEventEmitter = require('docker-event-emitter');
+const DockerEE = require('docker-event-emitter');
 
 (async function main() {
 
@@ -32,7 +32,7 @@ const DockerEventEmitter = require('docker-event-emitter');
   });
   
   // Setup the DockerEventEmitter
-  const events = new DockerEvents(docker);
+  const events = new DockerEE(docker);
 
   // Subscribe to events
   events
