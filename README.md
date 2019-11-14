@@ -41,11 +41,11 @@ const DockerEE = require('docker-event-emitter');
       console.log(ev);
     })
     .on('container', ev => {
-      // This will be triggered on any  Type='container' event
+      // This will be triggered on any Type='container' event
       console.log(ev);
     })
     .on('network.connect', ev => {
-      // This will be triggered on any  Type='network' and Action='connect' event
+      // This will be triggered on any Type='network' and Action='connect' event
       console.log(ev);
     });
 
