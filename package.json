@@ -1,6 +1,6 @@
 {
   "name": "docker-event-emitter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Subscribe to events from a dockerode instance in a meaningful way",
   "main": "index.js",
   "repository": {
